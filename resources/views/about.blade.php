@@ -12,3 +12,8 @@
         </div>
     </div>
 @endsection
+@section('footer')
+    <script>
+        alert("Hello,About Page")
+    </script>
+@endsection
