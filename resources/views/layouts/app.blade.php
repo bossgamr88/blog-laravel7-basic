@@ -41,6 +41,9 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('typebooks') }}">{{ __('ประเภทหนังสือ') }}</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('about') }}">{{ __('เกี่ยวกับเรา') }}</a>
                             </li>
                             <li class="nav-item">
