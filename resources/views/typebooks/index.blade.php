@@ -19,7 +19,10 @@
                                 <tr>
                                     <td>{{ $typebook->id }}</td>
                                     <td>{{ $typebook->name }}</td>
-                                    <td><a href="{{ url('/typesbooks/destory/'.$typebook->id)}}">ลบ</a></td>
+                                    {{-- issue 404 page
+                                    <td><a href="{{ url('/typebooks/destroy/'.$typebook->id)}}">ลบ</a></td> 
+                                    --}}
+                                    <td><a href="{{ url('/typebooks/destroy/'.$typebook->id)}}">ลบ</a></td>
                                 </tr>
                             @endforeach
                         </table>
